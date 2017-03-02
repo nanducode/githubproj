@@ -10,8 +10,8 @@ import re
 from bs4 import BeautifulSoup,SoupStrainer
 import os
 
-username=b'ananda.kommaraju@gmail.com'
-password=b'nellore123'
+username=b'yourusername'
+password=b'password'
 base64string = base64.b64encode(username + b":" + password)
 
 g = Github(client_id="2357171afb641b05b079",client_secret="444960920c4ace2e6cfefb055fbd4eea6e401438",per_page=100)
